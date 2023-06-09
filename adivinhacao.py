@@ -45,3 +45,6 @@ def jogar():
                 print('Você errou! O seu chute foi menor do que o número secreto!')
 
     print('Fim do jogo!')
+
+if(__name__ == '__main__'):
+    jogar()
