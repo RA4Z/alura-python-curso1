@@ -26,7 +26,8 @@ def jogar():
                 index += 1
         else:
             erros += 1
-
+            print('Errou! \nO número de tentativas restantes é {}'.format(6 - erros))
+        
         enforcou = erros == 6
         acertou = '_' not in letras_acertadas
         print(letras_acertadas)
